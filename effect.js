@@ -179,6 +179,7 @@ $('document').ready(function(){
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
+			$('#kucing').fadeIn('fast');
 			$('.message').fadeIn('slow');
 		});
 		
